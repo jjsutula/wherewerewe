@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mylocation"
+        android:title="@string/mylocation"
+        android:icon="@android:drawable/ic_menu_mylocation" />
+    <item android:id="@+id/showdestination"
+        android:title="@string/showdestination"
+        android:icon="@android:drawable/ic_menu_compass" />
+    <item android:id="@+id/goto_location"
+        android:title="@string/navigate_to_location"
+        android:icon="@android:drawable/ic_menu_rotate" />
+    <item android:id="@+id/preferences"
+        android:title="@string/settings"
+        android:icon="@android:drawable/ic_menu_preferences" />
+    <item android:id="@+id/more"
+        android:title="@string/more"
+        android:icon="@android:drawable/ic_menu_more" />
+</menu>

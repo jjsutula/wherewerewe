@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/preference_settings">
+
+        <ListPreference
+                android:key="preference_measurement"
+                android:title="@string/preference_measurement_title"
+                android:summary="@string/preference_measurement_summary"
+                android:entries="@array/preference_measurement_entries"
+                android:entryValues="@array/preference_measurement_entryvalues"
+                android:defaultValue="0"
+                android:dialogTitle="@string/preference_measurement_dialog_title" />
+        <ListPreference
+                android:key="preference_coordinate"
+                android:title="@string/preference_coordinate_title"
+                android:summary="@string/preference_coordinate_summary"
+                android:entries="@array/preference_coordinate_entries"
+                android:entryValues="@array/preference_coordinate_entryvalues"
+                android:defaultValue="0"
+                android:dialogTitle="@string/preference_coordinate_dialog_title" />
+        <ListPreference
+                android:key="preference_compass_size"
+                android:title="@string/preference_compass_size_title"
+                android:summary="@string/preference_compass_size_summary"
+                android:entries="@array/preference_compass_size_entries"
+                android:entryValues="@array/preference_compass_size_entryvalues"
+                android:defaultValue="4"
+                android:dialogTitle="@string/preference_compass_size_dialog_title" />
+        <ListPreference
+                android:key="preference_compass_visible"
+                android:title="@string/preference_compass_visible_title"
+                android:summary="@string/preference_compass_visible_summary"
+                android:entries="@array/preference_compass_visible_entries"
+                android:entryValues="@array/preference_compass_visible_entryvalues"
+                android:defaultValue="true"
+                android:dialogTitle="@string/preference_compass_visible_dialog_title" />
+        <ListPreference
+                android:key="preference_navigator_size"
+                android:title="@string/preference_navigator_size_title"
+                android:summary="@string/preference_navigator_size_summary"
+                android:entries="@array/preference_navigator_size_entries"
+                android:entryValues="@array/preference_navigator_size_entryvalues"
+                android:defaultValue="4"
+                android:dialogTitle="@string/preference_navigator_size_dialog_title" />
+        <ListPreference
+                android:key="preference_navigator_visible"
+                android:title="@string/preference_navigator_visible_title"
+                android:summary="@string/preference_navigator_visible_summary"
+                android:entries="@array/preference_navigator_visible_entries"
+                android:entryValues="@array/preference_navigator_visible_entryvalues"
+                android:defaultValue="true"
+                android:dialogTitle="@string/preference_navigator_visible_dialog_title" />
+            
+    </PreferenceCategory>
+</PreferenceScreen>

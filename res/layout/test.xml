@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/myWidget48"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:orientation="vertical"
+   >
+    <ScrollView
+       android:id="@+id/myScrollView"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       >
+        <LinearLayout
+           android:id="@+id/widget37"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+            <TextView
+               android:id="@+id/widget51"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Name (Required):"
+               android:textStyle="bold"
+               android:paddingTop="10dip"
+               >
+            </TextView>
+           
+            <EditText
+               android:id="@+id/txtName"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:textSize="18sp"
+               android:textStyle="bold"
+               >
+            </EditText>
+           
+            <TextView
+               android:id="@+id/widget53"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Description (Optional):"
+               android:textStyle="bold"
+               android:paddingTop="10dip"
+               >
+            </TextView>
+               
+            <EditText
+               android:id="@+id/txtDescr"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:textSize="18sp"
+               android:gravity="left"
+               android:autoText="true"
+               android:paddingTop="10dip"
+               >
+            </EditText>
+           
+            <TextView
+               android:id="@+id/widget53"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Notes (Optional):"
+               android:textStyle="bold"
+               android:paddingTop="10dip"
+               >
+            </TextView>
+               
+            <EditText
+               android:id="@+id/txtNotes"
+               android:layout_width="fill_parent"
+               android:layout_height="120px"
+               android:scrollHorizontally="true"
+               android:scrollbars="vertical"
+               android:textSize="18sp"
+               android:gravity="left"
+               android:autoText="true"
+               android:paddingTop="10dip"
+               >
+            </EditText>
+               
+            <Button
+               android:id="@+id/btnSave"
+               android:layout_width="91px"
+               android:layout_height="44px"
+               android:text="Save"
+               android:textStyle="bold"
+               >
+            </Button>
+           
+            <Button
+               android:id="@+id/btnCancel"
+               android:layout_width="86px"
+               android:layout_height="44px"
+               android:text="Cancel"
+               android:textStyle="bold"
+               >
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

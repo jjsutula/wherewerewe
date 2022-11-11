@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView android:id="@+id/trip_name_text"
+	    android:layout_marginTop="20dp"
+	    android:textSize="14dp"
+	    android:textStyle = "bold"
+	    android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+	    android:text="@string/name"/>
+	<EditText android:id="@+id/edit_trip_name"
+	    android:layout_marginTop="4dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+		android:layout_centerHorizontal="true"
+	    android:layout_below="@+id/trip_name_text"
+	    android:textSize="16dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+
+	<TextView android:id="@+id/start_date_text"
+	    android:layout_marginTop="10dp"
+	    android:textSize="14dp"
+	    android:textStyle = "bold"
+	    android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_below="@+id/edit_trip_name"
+	    android:text="@string/start_date"/>
+    <Button android:id="@+id/start_date_button"
+	    android:layout_marginTop="4dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:onClick="buttonClickHandler"
+	    android:layout_below="@+id/start_date_text"
+        android:text="Change the start date"/>
+
+	<TextView android:id="@+id/end_date_text"
+	    android:layout_marginTop="10dp"
+	    android:textSize="14dp"
+	    android:textStyle = "bold"
+	    android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_below="@+id/start_date_button"
+	    android:text="@string/end_date"/>
+    <Button android:id="@+id/end_date_button"
+	    android:layout_marginTop="4dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="100dp"
+	    android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:onClick="buttonClickHandler"
+	    android:layout_below="@+id/end_date_text"
+        android:text="Change the end date"/>
+
+</RelativeLayout>

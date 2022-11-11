@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<ScrollView
+	   android:id="@+id/mainScrollView"
+	   android:layout_alignParentTop="true"
+	   android:layout_width="fill_parent"
+	   android:layout_height="wrap_content"
+	   android:layout_weight="1">
+	    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+			<Button android:id="@+id/meta_button"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+			    android:layout_marginTop="15dp"
+			    android:textSize="14dp"
+				android:text="@string/main_html"
+				android:layout_alignParentTop="true"
+				android:layout_centerHorizontal="true"
+				android:onClick="buttonClickHandler"
+			    />
+			<Button android:id="@+id/trip_button"
+				android:layout_height="96dp"
+				android:layout_width="96dp"
+				android:background="@drawable/icontrip"
+				android:layout_centerHorizontal="true"
+			    android:hapticFeedbackEnabled="true"
+			    android:layout_below="@+id/meta_button"
+			    />
+			<TextView android:id="@+id/text_when"
+			    android:layout_below="@+id/trip_button"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"
+			    android:layout_marginTop="15dp"
+			    android:text="When Date and Time"
+			    android:textSize="14dp"/>
+			<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/layout_details"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+			    android:layout_marginTop="10dp"
+				android:orientation="horizontal"
+			    android:layout_below="@+id/text_when"
+				android:layout_centerHorizontal="true">
+				<Button android:id="@+id/location_button"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:layout_marginLeft="10dp"
+					android:layout_alignParentTop="true"
+					android:background="@drawable/forward_64x64"
+					android:onClick="buttonClickHandler"
+				    android:hapticFeedbackEnabled="true"/>
+				<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:id="@+id/layout_details_table"
+					android:layout_marginLeft="10dp"
+					android:layout_height="wrap_content"
+			 	    android:orientation="vertical"
+					android:layout_alignParentTop="true"
+					android:layout_width="wrap_content"
+					android:layout_toRightOf="@+id/location_button"
+					>
+					<TableRow>
+						<TextView android:id="@+id/text_altitude_header"
+						    android:layout_column="1"
+						    android:textSize="12dp"
+						    android:textStyle = "bold"
+						    android:text="@string/altitude"/>
+						<TextView android:id="@+id/text_altitude"
+							android:layout_marginLeft="3dp"
+						    android:textSize="14dp"/>
+		    		</TableRow>
+					<TableRow>
+						<TextView android:id="@+id/text_latitude_header"
+						    android:layout_column="1"
+						    android:textSize="12dp"
+						    android:textStyle = "bold"
+						    android:text="@string/latitude"/>
+						<TextView android:id="@+id/text_latitude"
+							android:layout_marginLeft="3dp"
+						    android:textSize="14dp"/>
+		    		</TableRow>
+					<TableRow>
+						<TextView android:id="@+id/text_longitude_header"
+						    android:layout_column="1"
+						    android:textSize="12dp"
+						    android:textStyle = "bold"
+						    android:text="@string/longitude"/>
+						<TextView android:id="@+id/text_longitude"
+							android:layout_marginLeft="3dp"
+						    android:textSize="14dp"/>
+		    		</TableRow>
+					<TableRow>
+						<TextView android:id="@+id/text_address1_header"
+						    android:layout_column="1"
+						    android:textSize="12dp"
+						    android:textStyle = "bold"
+						    android:text="@string/address"/>
+						<TextView android:id="@+id/text_address1"
+							android:layout_marginLeft="3dp"
+						    android:textSize="14dp"/>
+		    		</TableRow>			
+					<TableRow>
+						<TextView android:id="@+id/text_address2_header"
+						    android:layout_column="1"
+						    android:text=" "
+						    />
+						<TextView android:id="@+id/text_address2"
+							android:layout_marginLeft="3dp"
+						    android:textSize="14dp"/>
+		    		</TableRow>			
+					<TableRow>
+						<TextView android:id="@+id/text_address3_header"
+						    android:layout_column="1"
+						    android:text=" "
+						    />
+						<TextView android:id="@+id/text_address3"
+							android:layout_marginLeft="3dp"
+						    android:textSize="14dp"/>
+		    		</TableRow>			
+					<TableRow>
+						<TextView android:id="@+id/text_address4_header"
+						    android:layout_column="1"
+						    android:text=" "
+						    />
+						<TextView android:id="@+id/text_address4"
+							android:layout_marginLeft="3dp"
+						    android:textSize="14dp"/>
+		    		</TableRow>			
+				</TableLayout>
+			</RelativeLayout>
+
+			<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/gallery_layout"
+			    android:layout_marginTop="20dp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+			    android:layout_alignParentBottom="true"
+			    android:layout_below="@+id/layout_details">
+			    
+				<View android:id="@+id/divider"
+				    android:background="@drawable/border_divider"
+				    android:layout_width="fill_parent"
+				    android:layout_height="5dp"
+					android:layout_alignParentTop="true"
+					 />
+				
+			    <Gallery
+			        android:id="@+id/gallery"
+				    android:layout_marginTop="20dp"
+				    android:layout_marginBottom="20dp"
+				    android:layout_height="wrap_content"
+					android:layout_centerHorizontal="true"
+				    android:layout_below="@+id/gallery_border_top"
+				    android:scrollbars="horizontal"
+				    android:layout_width="fill_parent"
+				    android:spacing="10dp"
+			        /> 
+				<View android:id="@+id/divider"
+				    android:background="@drawable/border_divider"
+				    android:layout_width="fill_parent"
+				    android:layout_height="5dp"
+				    android:layout_below="@+id/gallery"
+					 />
+			</RelativeLayout>
+		</RelativeLayout>
+	</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<ScrollView
+	   	android:id="@+id/myScrollView"
+	   	android:layout_alignParentTop="true"
+	   	android:layout_width="fill_parent"
+	   	android:layout_height="wrap_content">
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent">
+				<TextView android:id="@+id/location_name_text"
+				    android:layout_marginTop="20dp"
+				    android:textSize="12dp"
+				    android:textStyle = "bold"
+				    android:layout_marginLeft="10dp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+					android:layout_alignParentTop="true"
+				    android:text="@string/name"/>
+				<EditText android:id="@+id/edit_location_name"
+				    android:layout_marginTop="2dp"
+				    android:layout_marginLeft="10dp"
+				    android:layout_marginRight="10dp"
+				    android:layout_below="@+id/location_name_text"
+				    android:textSize="16dp"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"/>
+
+				<TextView android:id="@+id/altitude_text"
+				    android:layout_marginTop="10dp"
+				    android:textSize="12dp"
+				    android:textStyle = "bold"
+				    android:layout_marginLeft="10dp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+				    android:layout_below="@+id/edit_location_name"
+				    android:text="@string/altitude"/>
+				<EditText android:id="@+id/edit_altitude"
+				    android:layout_marginTop="2dp"
+				    android:layout_marginLeft="10dp"
+				    android:layout_marginRight="100dp"
+				    android:layout_below="@+id/altitude_text"
+				    android:textSize="16dp"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"/>
+			
+				<TextView android:id="@+id/latitude_text"
+				    android:layout_marginTop="10dp"
+				    android:textSize="12dp"
+				    android:textStyle = "bold"
+				    android:layout_marginLeft="10dp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+				    android:layout_below="@+id/edit_altitude"
+				    android:text="@string/latitude"/>
+				<EditText android:id="@+id/edit_latitude"
+				    android:layout_marginTop="2dp"
+				    android:layout_marginLeft="10dp"
+				    android:layout_marginRight="100dp"
+				    android:layout_below="@+id/latitude_text"
+				    android:textSize="16dp"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"/>
+		
+				<TextView android:id="@+id/longitude_text"
+				    android:layout_marginTop="10dp"
+				    android:textSize="12dp"
+				    android:textStyle = "bold"
+				    android:layout_marginLeft="10dp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+				    android:layout_below="@+id/edit_latitude"
+				    android:text="@string/longitude"/>
+				<EditText android:id="@+id/edit_longitude"
+				    android:layout_marginTop="2dp"
+				    android:layout_marginLeft="10dp"
+				    android:layout_marginRight="100dp"
+				    android:layout_below="@+id/longitude_text"
+				    android:textSize="16dp"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"/>
+				
+				<TextView android:id="@+id/when_text"
+				    android:layout_marginTop="10dp"
+				    android:textSize="12dp"
+				    android:textStyle = "bold"
+				    android:layout_marginLeft="10dp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+				    android:layout_below="@+id/edit_longitude"
+				    android:text="@string/when"/>
+				<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:id="@+id/when_layout"
+				    android:orientation="horizontal"
+				    android:layout_marginTop="2dp"
+				    android:layout_marginLeft="10dp"
+				    android:layout_marginRight="10dp"
+				    android:layout_below="@+id/when_text"
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent">
+					<Button android:id="@+id/when_date_button"
+						android:layout_weight="1"
+					    android:text="Date"
+						android:layout_alignParentLeft="true"
+					    android:layout_width="wrap_content"
+						android:onClick="buttonClickHandler"
+					    android:layout_height="wrap_content"/>
+					<Button android:id="@+id/when_time_button"
+						android:layout_weight="1"
+					    android:text="Time"
+						android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:layout_toRightOf="@+id/when_date_button"
+						android:onClick="buttonClickHandler"
+					    />
+				</RelativeLayout>
+				
+				<TextView android:id="@+id/address_text"
+				    android:layout_marginTop="10dp"
+				    android:textSize="12dp"
+				    android:textStyle = "bold"
+				    android:layout_marginLeft="10dp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+				    android:layout_below="@+id/when_layout"
+				    android:text="@string/address"/>
+				<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+					android:id="@+id/address_layout"
+				    android:orientation="horizontal"
+				    android:layout_marginLeft="10dp"
+				    android:layout_marginRight="10dp"
+				    android:layout_below="@+id/address_text"
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent">
+					<EditText android:id="@+id/edit_address"
+					    android:layout_marginTop="2dp"
+					    android:textSize="16dp"
+					    android:lines="4"
+					    android:layout_toLeftOf="@+id/address_button"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"/>
+					<Button android:id="@+id/address_button"
+						android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+						android:layout_alignParentRight="true"
+						android:onClick="buttonClickHandler"
+					    android:background="@drawable/reload_32x32"
+					    />
+				</RelativeLayout>
+				<Button
+				    android:id="@+id/cancel_button"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+			        android:layout_marginTop="10dp"
+			        android:layout_marginBottom="10dp"
+					android:layout_centerHorizontal="true"
+					android:layout_below="@+id/address_layout"
+					android:onClick="buttonClickHandler"
+				    android:text="@string/cancel"
+				    />
+			</RelativeLayout>
+	</ScrollView>
+</RelativeLayout>

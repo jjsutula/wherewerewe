@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="preference_measurement_entries">
+        <item>Metric</item>  
+        <item>English</item>  
+    </string-array>
+
+    <string-array name="preference_measurement_entryvalues">
+        <item>Metric</item>  
+        <item>English</item>  
+    </string-array>
+
+    <string-array name="preference_compass_size_entries">
+        <item>1</item>  
+        <item>2</item>  
+        <item>3</item>  
+        <item>4</item>  
+        <item>5</item>  
+        <item>6</item>  
+        <item>7</item>  
+        <item>8</item>  
+        <item>9</item>  
+        <item>10</item>  
+        <item>11</item>  
+        <item>12</item>  
+        <item>13</item>  
+        <item>14</item>  
+        <item>15</item>  
+        <item>16</item>  
+        <item>17</item>  
+        <item>18</item>  
+        <item>19</item>  
+        <item>20</item>  
+    </string-array>
+
+    <string-array name="preference_compass_size_entryvalues">
+        <item>1</item>  
+        <item>2</item>  
+        <item>3</item>  
+        <item>4</item>  
+        <item>5</item>  
+        <item>6</item>  
+        <item>7</item>  
+        <item>8</item>  
+        <item>9</item>  
+        <item>10</item>  
+        <item>11</item>  
+        <item>12</item>  
+        <item>13</item>  
+        <item>14</item>  
+        <item>15</item>  
+        <item>16</item>  
+        <item>17</item>  
+        <item>18</item>  
+        <item>19</item>  
+        <item>20</item>  
+    </string-array>
+
+    <string-array name="preference_compass_visible_entries">
+        <item>yes</item>  
+        <item>no</item>  
+    </string-array>
+
+    <string-array name="preference_compass_visible_entryvalues">
+        <item>true</item>  
+        <item>false</item>  
+    </string-array>
+
+    <string-array name="preference_coordinate_entries">
+        <item>decimal</item>  
+        <item>dms</item>  
+    </string-array>
+
+    <string-array name="preference_coordinate_entryvalues">
+        <item>decimal</item>  
+        <item>dms</item>  
+    </string-array>
+    
+    <string-array name="preference_navigator_size_entries">
+        <item>1</item>  
+        <item>2</item>  
+        <item>3</item>  
+        <item>4</item>  
+        <item>5</item>  
+        <item>6</item>  
+        <item>7</item>  
+        <item>8</item>  
+        <item>9</item>  
+        <item>10</item>  
+        <item>11</item>  
+        <item>12</item>  
+        <item>13</item>  
+        <item>14</item>  
+        <item>15</item>  
+        <item>16</item>  
+        <item>17</item>  
+        <item>18</item>  
+        <item>19</item>  
+        <item>20</item>  
+    </string-array>
+
+    <string-array name="preference_navigator_size_entryvalues">
+        <item>1</item>  
+        <item>2</item>  
+        <item>3</item>  
+        <item>4</item>  
+        <item>5</item>  
+        <item>6</item>  
+        <item>7</item>  
+        <item>8</item>  
+        <item>9</item>  
+        <item>10</item>  
+        <item>11</item>  
+        <item>12</item>  
+        <item>13</item>  
+        <item>14</item>  
+        <item>15</item>  
+        <item>16</item>  
+        <item>17</item>  
+        <item>18</item>  
+        <item>19</item>  
+        <item>20</item>  
+    </string-array>
+
+    <string-array name="preference_navigator_visible_entries">
+        <item>yes</item>  
+        <item>no</item>  
+    </string-array>
+
+    <string-array name="preference_navigator_visible_entryvalues">
+        <item>true</item>  
+        <item>false</item>  
+    </string-array>
+
+</resources>

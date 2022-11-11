@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   id="svg3774"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="switch_loc.svg"
+   inkscape:export-filename="C:\projects\springworkspace\droid\wherewerewe\WhereWereWe\res\drawable-hdpi\switch_loc.png"
+   inkscape:export-xdpi="67.5"
+   inkscape:export-ydpi="67.5">
+  <defs
+     id="defs3776" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="90.610838"
+     inkscape:cy="76.967465"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="708"
+     inkscape:window-height="747"
+     inkscape:window-x="147"
+     inkscape:window-y="100"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3779">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-988.3622)">
+    <image
+       y="988.57648"
+       x="0.14285481"
+       id="image4343"
+       xlink:href="data:image/png;base64,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 "
+       height="64"
+       width="64" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.6;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="27.508926"
+       y="1006.3"
+       id="text3000"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\projects\springworkspace\droid\wherewerewe\WhereWereWe\res\drawable-hdpi\add_loc.png"
+       inkscape:export-xdpi="8.4399996"
+       inkscape:export-ydpi="8.4399996"><tspan
+         sodipodi:role="line"
+         id="tspan4346"
+         x="27.508926"
+         y="1006.3">L</tspan></text>
+  </g>
+</svg>

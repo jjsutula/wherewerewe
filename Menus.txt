@@ -1,0 +1,86 @@
+
+Refresh Position
+New Location
+New Trip
+View Details
+	Location
+	Trip
+Notes		
+	Location
+	Trip
+Swap
+	View Locations
+	View Trips
+	Transfer Location
+	Remove Locations
+	Remove Trips
+Maintain
+	Backup Trips
+	restore Backup
+
+
+
+
+
+
+
+
+
+
+
+
+Main Buttons
+	Notes
+	Map
+	Audio
+	Camera
+	Video
+*	Gallery
+
+
+Application Options
+.	Backup Trips
+.	restore Backup
+*	About
+
+	
+Trip Options
+.	Switch Trip
+.	New Trip
+.	Remove Trips
+.	Trip Details
+.	Trip Notes
+	
+	
+Location Options
+.	Refresh Position
+.	Move Location
+.	Switch Location
+.	New Location
+.	Remove Locations
+.	Location Details
+
+
+Compass/Navigator Options
+	Larger
+	Smaller
+	Turn Off
+
+
+Map Menu
+	Show Current Location (on main menu)
+	Show Destination (on main menu)
+	Compass Options
+		Turn on/off
+		Larger
+		Smaller
+	Navigator Options
+		Turn on/off
+		Larger
+		Smaller
+	Map Mode
+		Satelite
+		Map
+		Traffic
+
+

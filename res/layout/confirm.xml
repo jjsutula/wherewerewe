@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/file_details_table"
+	    android:layout_marginTop="10dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_height="wrap_content"
+ 	    android:orientation="vertical"
+		android:layout_alignParentTop="true"
+		android:layout_width="wrap_content"
+		>
+		<TableRow>
+			<TextView android:id="@+id/text_file_header"
+			    android:layout_column="1"
+			    android:textSize="12dp"
+			    android:textStyle = "bold"
+			    android:text="@string/file_label"/>
+			<TextView android:id="@+id/text_file_name"
+				android:layout_marginLeft="3dp"
+			    android:textSize="14dp"/>
+   		</TableRow>
+		<TableRow>
+			<TextView android:id="@+id/text_path_header"
+			    android:layout_column="1"
+			    android:textSize="12dp"
+			    android:textStyle = "bold"
+			    android:text="@string/path_label"/>
+			<TextView android:id="@+id/text_path"
+				android:layout_marginLeft="3dp"
+			    android:textSize="14dp"/>
+   		</TableRow>
+	</TableLayout>
+	<TextView android:id="@+id/text_confirm"
+	    android:layout_below="@+id/file_details_table"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	    android:layout_marginTop="25dp"
+		android:layout_marginLeft="10dp"
+		android:layout_centerHorizontal="true"
+	    android:text="@string/confirm_delete_question"
+	    android:textSize="12dp"/>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/layout_details"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+		android:orientation="horizontal"
+	    android:layout_below="@+id/text_confirm"
+		android:layout_centerHorizontal="true">
+		<Button android:id="@+id/yes_button"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_alignParentTop="true"
+	    	android:text="@string/yes"
+			android:onClick="buttonClickHandler"
+		    android:hapticFeedbackEnabled="true"/>
+		<Button android:id="@+id/no_button"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_alignParentTop="true"
+	    	android:layout_toRightOf="@+id/yes_button"
+	    	android:text="@string/no"
+			android:onClick="buttonClickHandler"
+		    android:hapticFeedbackEnabled="true"/>
+	</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+Trip Options
+
+New
+remove
+** View Locations
+
+
+
+
+
+
+
+
+Location Options
+
+New
+Remove
+Update GPS (Refresh)
+* Change Trip Info
+
+
+
+
+
+
+* Configure Location
+Trip: trip name (change)
+Excursion: excursion name (change)
+
