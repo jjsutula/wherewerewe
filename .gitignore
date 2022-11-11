@@ -194,4 +194,4 @@ Google Map MD5 certificate Info.txt
 wwwdb*.xml
 
 *.keystore
-
+*.metadata
